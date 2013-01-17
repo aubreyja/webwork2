@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WeBWorK Online Homework System\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2012-08-16 11:16-0600\n"
+"Last-Translator: Jason Aubrey <aubreyja@gmail.com>\n"
+"Language-Team: Teri Christiansen <christiansente@missouri.edu>\n"
+"Language: Teri\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ContentGenerator.pm:667 ContentGenerator/ProblemSet.pm:110
+#: ContentGenerator/ProblemSets.pm:226
+msgid "Homework Sets"
+msgstr "Homework & Quizzes"
+
+#
+#. ($name, $vnum)
+#: ContentGenerator/ProblemSets.pm:416
+msgid "%1 (test %2)"
+msgstr "%1 (attempt %2)"
+
+#
+#. ($name)
+#: ContentGenerator/ProblemSets.pm:424 ContentGenerator/ProblemSets.pm:433
+#: ContentGenerator/ProblemSets.pm:439
+msgid "Take %1 test"
+msgstr "Take %1"
+
+#
+#: ContentGenerator/ProblemSets.pm:236
+msgid "Test Date"
+msgstr "Quiz Date"
+
+#
+#: ContentGenerator/ProblemSets.pm:235
+msgid "Test Score"
+msgstr "Quiz Score"
+
+#
+#. ($name)
+#: ContentGenerator/ProblemSets.pm:427
+#: ContentGenerator/ProblemSets.pm:441
+msgid "%1 test"
+msgstr "%1"
+
+#: ContentGenerator/GatewayQuiz.pm
+msgid "Preview Test"
+msgstr "Preview Quiz"
+
+#: ContentGenerator/GatewayQuiz.pm
+msgid "Grade Test"
+msgstr "Grade Quiz"
+
+#: ContentGenerator/GatewayQuiz.pm
+msgid "Check Test"
+msgstr "Check Quiz"
+
+#: ContentGenerator/Problem.pm:1116
+msgid "Preview Answers"
+msgstr "Preview My Answers"
+
+
+#
+#: ContentGenerator/Problem.pm:864
+msgid "navNext"
+msgstr "Next"
+
+#
+#: ContentGenerator/Problem.pm:866
+msgid "navNextGrey"
+msgstr "Next"
+
+#
+#: ContentGenerator/Problem.pm:850
+msgid "navPrev"
+msgstr "Prev"
+
+#
+#: ContentGenerator/Problem.pm:852
+msgid "navPrevGrey"
+msgstr "Prev"
+
+#
+#: ContentGenerator/Problem.pm:856
+msgid "navProbList"
+msgstr "Up"
+
+#
+#: ContentGenerator/Problem.pm:858
+msgid "navProbListGrey"
+msgstr "Up"
+
+#
+#: ContentGenerator/ProblemSet.pm:110
+msgid "navUp"
+msgstr "Up"
+
+#
+#: ContentGenerator/GatewayQuiz.pm
+msgid "You have %1 attempt(s) remaining on this test."
+msgstr "You have %1 submission(s) remaining on this quiz version."
