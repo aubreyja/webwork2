@@ -1,3 +1,40 @@
-This file is at htdocs/site_info.txt.  Use it to display information for the entire WeBWorK site which will be viewed at login time.
+<script type="text/javascript">
+var course =/MU_Math_(1100|0110)/;
+var msie = /MSIE/;
+if(course.test(window.location.pathname) && msie.test(navigator.userAgent)) {
+ alert("Use Internet Explorer at your own risk! There are known issues with regenerating WeBWorK graphs. See note at right.");
+}
+</script>
+<p>
+<b>Sunday mornings:</b> Please be aware that MU occasionally 
+conducts regular network and server maintenance tasks on Sunday 
+mornings between midnight Saturday and noon on Sunday. As a result, 
+WeBWorK may be unavailable on some Sunday mornings, but in such cases 
+service will always resume by Sunday noon. We apologize for any 
+inconvenience this may cause, and we will notify users in advance of 
+such outages when we are aware of them. 
+</p>
+
+<b>WeBWorK on Internet Explorer</b>
+<p>
+We recommend that you don't use Internet Explorer (IE). Why? Well, firstly, IE is generally considered less secure than other popular browsers. Also, the state-of-the-art for displaying math on the web is a software product called <a href='http://mathjax.org'>MathJax</a>. Unfortunatley, IE doesn't yet work well with MathJax while other browsers do.  
+</p>
+<p>
+Finally, there is a known issue of graphs in WeBWorK problems not regenerating correctly on Internet Explorer.  To work around this problem, here is what you'll need to do if you typically use Internet Explorer as your web browser.
+</p>
+<p>
+Try ONE of the following:  
+</p>
+<p>
+<ol>
+   <li> Consider using <a href="http://www.mozilla.org/en-US/">Firefox</a> or <a href='http://www.google.com/chrome'>Google Chrome </a>.  This issue doesn't occur in these browsers (or with Safari if you are a Mac user), so this may be the simplest fix. Or,</li>
+    <li> Adjust the settings on Internet Explorer as follows:
+<ul>
+   <li>Go to Tools > Internet Options</li>
+        <li>Under Browsing History, press the button for Settings</li>
+        <li>Choose:  Check for newer versions of stored pages:  Every time I visit the webpage</li>
+</ul></ol>
+    If you continue to experience the issue, you can always use the Reload/Refresh button on the webpage to get Internet Explorer to load the updated/regenerated image.  The problem with this approach is that you will lose one of your attempts on that version of the problem.
+</p>
 
 
