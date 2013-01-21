@@ -355,6 +355,7 @@ sub attemptResults {
 
 	my $numCorrect = 0;
 	my $numAns = 0;
+        my $answerScore = 0;
 	foreach my $name (@answerNames) {
 		my $answerResult  = $pg->{answers}->{$name};
 		my $studentAnswer = $answerResult->{student_ans}; # original_student_ans
@@ -362,7 +363,7 @@ sub attemptResults {
 		                    	? $self->previewAnswer($answerResult, $imgGen)
 		                    	: "");
 		my $correctAnswer = $answerResult->{correct_ans};
-		my $answerScore   = $answerResult->{score};
+		$answerScore   = $answerResult->{score};
 		my $answerMessage = $showMessages ? $answerResult->{ans_message} : "";
 		#FIXME  --Can we be sure that $answerScore is an integer-- could the problem give partial credit?
 		$numCorrect += $answerScore > 0;
@@ -408,9 +409,12 @@ sub attemptResults {
 
 	my $summary = ""; 
 	if (scalar @answerNames == 1) {
-			if ($numCorrect == scalar @answerNames) {
+			#if ($numCorrect == scalar @answerNames) {
+			if($answerScore == 1) {
 				$summary .= CGI::div({class=>"gwCorrect"},"This answer is correct.");
-			 } else {
+			 } elsif($answerScore && $answerScore < 1) {
+				$summary .= CGI::div({class=>"gwIncorrect"},"Part of this answer is NOT correct.");
+			} else {
 			 	 $summary .= CGI::div({class=>"gwIncorrect"},"This answer is NOT correct.");
 			 }
 	} else {
@@ -1223,20 +1227,6 @@ sub pre_header_initialize {
 	$self->{ra_probOrder} = \@probOrder;
 }
 
-sub head {
-        my ($self) = @_;
-        my $ce = $self->r->ce;
-        my $webwork_htdocs_url = $ce->{webwork_htdocs_url};
-
-        # Javascript and style for knowls
-        print qq{
-           <script type="text/javascript" src="$webwork_htdocs_url/js/jquery-1.7.1.min.js"></script>
-           <link href="$webwork_htdocs_url/css/knowlstyle.css" rel="stylesheet" type="text/css" />
-           <script type="text/javascript" src="$webwork_htdocs_url/js/knowl.js"></script>};
-
-        return $self->{pg}->{head_text} if $self->{pg}->{head_text};
-}
-
 sub path {
 	my ( $self, $args ) = @_;
 
@@ -1865,8 +1855,7 @@ sub body {
 		#    attempt multi-page test, show the score on the previous
 		#    submission
 		if ( $set->attempts_per_version > 1 ) {
-			print CGI::em("You have $numLeft attempt(s) remaining ",
-				      "on this test.");
+			print CGI::em($r->maketext("You have [_1] attempt(s) remaining on this test.",$numLeft));
 			if ( $numLeft < $set->attempts_per_version &&
 			     $numPages > 1 &&
 			     $can{showScore} ) {
@@ -2168,13 +2157,13 @@ sub body {
 		}
 
 		print CGI::p( CGI::submit( -name=>"previewAnswers", 
-					   -label=>"Preview Test" ),
+					   -label=>$r->maketext("Preview Test") ),
 			      ($can{recordAnswersNextTime} ? 
 			       CGI::submit( -name=>"submitAnswers",
-					    -label=>"Grade Test" ) : " "),
+					    -label=>$r->maketext("Grade Test") ) : " "),
 			      ($can{checkAnswersNextTime} && ! $can{recordAnswersNextTime} ?
 			       CGI::submit( -name=>"checkAnswers",
-					    -label=>"Check Test" ) : " "),
+					    -label=>$r->maketext("Check Test") ) : " "),
 			      ($numProbPerPage && $numPages > 1 && 
 			       $can{recordAnswersNextTime} ? CGI::br() . 
 			       CGI::em("Note: grading the test grades " . 
