@@ -18,6 +18,11 @@ msgstr ""
 msgid "_REDUCED_CREDIT_MESSAGE_1"
 msgstr "In order to recieve full credit on this assignment, all work must be completed by %1. The Reduced Credit Period begins %1 and ends %2.  During this period all additional work done counts %3\% of the original."
 
+#. ($beginReducedScoringPeriod,$dueDate,$reducedScoringPerCent)
+#: ContentGenerator/ProblemSet.pm:335
+msgid "_REDUCED_CREDIT_MESSAGE_2"
+msgstr "This assignment  can no longer be worked on for a grade, since it is past the due date."
+
 #: ContentGenerator.pm:667 ContentGenerator/ProblemSet.pm:110
 #: ContentGenerator/ProblemSets.pm:226
 msgid "Homework Sets"
