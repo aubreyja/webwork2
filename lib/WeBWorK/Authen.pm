@@ -358,9 +358,9 @@ sub get_credentials {
 			$self -> {session_key} = $cookieKey;
 			$self -> {cookie_timestamp} = $cookieTimeStamp;
 			if ($cookieKey ne $r->param("key")) {
-				warn ("cookieKey = $cookieKey and param key = " . $r -> param("key") . " are different, perhaps"
-					 ." because you opened several windows for the same site and then backed up from a newer one to an older one."
-					 ."  Avoid doing so.");
+				#warn ("cookieKey = $cookieKey and param key = " . $r -> param("key") . " are different, perhaps"
+				#	 ." because you opened several windows for the same site and then backed up from a newer one to an older one."
+				#	 ."  Avoid doing so.");
 			$self -> {credential_source} = "conflicting_params_and_cookie";
 			}
 			debug("params and cookie user '", $self->{user_id}, "' credential_source = '", $self->{credential_source},
