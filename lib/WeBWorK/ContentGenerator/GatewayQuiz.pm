@@ -366,7 +366,7 @@ sub attemptResults {
 		$answerScore   = $answerResult->{score};
 		my $answerMessage = $showMessages ? $answerResult->{ans_message} : "";
 		#FIXME  --Can we be sure that $answerScore is an integer-- could the problem give partial credit?
-		$numCorrect += $answerScore > 0;
+		$numCorrect += $answerScore;
 		my $resultString = $answerScore == 1 ? "correct" : "incorrect";
 		
 		# get rid of the goofy prefix on the answer names (supposedly, the format
