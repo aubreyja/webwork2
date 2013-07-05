@@ -1,3 +1,0 @@
-$db->addUser( $db->newUser( user_id=>"aubreyja", first_name=>"Jason", last_name=>"Aubrey", email_address=>"aubreyja\@missouri.edu", student_id=>"aubreyja", status=>"C", section=>"", recitation=>"", comment=>"administrator"));
-$db->addPassword( $db->newPassword( user_id=>"aubreyja", password=>crypt("myPassword", "liquid09")));
-$db->addPermissionLevel( $db->newPermissionLevel( user_id=>"aubreyja", permission=>"10"));
