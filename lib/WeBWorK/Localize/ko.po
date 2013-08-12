@@ -1,15 +1,15 @@
-# Korean Translation for WeBWorK
-# Copyright (C) 1996-2013
-# This file is distributed under the same license as the WeBWorK package.
-# WeBWorK Translation Team <trans@webwork.maa.org>.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: WeBWorK\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2013-02-14 13:10-0600\n"
-"Last-Translator: Jiyeon Yoon <rose108805@hanmail.net>\n"
-"Language-Team: WeBWorK Translation Team <trans@webwork.maa.org>\n"
+"PO-Revision-Date: 2013-01-31 15:09-0600\n"
+"Last-Translator: Michael Gage <gage@math.rochester.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,12 +25,12 @@ msgstr "%1 (시험 %2)"
 #. ($numAdded, $numSkipped, join(", ", @$skipped)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1581
 msgid "%1 sets added, %2 sets skipped. Skipped sets: (%3)"
-msgstr "%1 추가된 문제집, %2 건너뛴 문제집, 건너뛴 문제집: (%3) "
+msgstr ""
 
 #. ($numExported, $numSkipped, (($numSkipped)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1701
 msgid "%1 sets exported, %2 sets skipped. Skipped sets: (%3)"
-msgstr "%1 내보낸 문제집, %2 넘어간 문제집. 넘어간 문제집: (%3)"
+msgstr ""
 
 #. ($name)
 #: ContentGenerator/ProblemSets.pm:427 ContentGenerator/ProblemSets.pm:441
@@ -40,49 +40,48 @@ msgstr "%1 시험"
 #. (scalar @userIDsToExport, $dir, $fileName)
 #: ContentGenerator/Instructor/UserList.pm:1385
 msgid "%1 users exported to file %2/%3"
-msgstr "파일 %2/%3으로 넘어간 %1 사용자"
+msgstr ""
 
 #. ($numReplaced, $numAdded, $numSkipped, join (", ", @$skipped)
 #: ContentGenerator/Instructor/UserList.pm:1269
 msgid ""
 "%1 users replaced, %2 users added, %3 users skipped. Skipped users: (%4)"
 msgstr ""
-"%1 교체된 사용자, %2 추가된 사용자, %3 넘어간 사용자. 넘어간 사용자: (4%)"
 
 #. (int($answerScore*100)
 #: ContentGenerator/Problem.pm:265
 msgid "%1% correct"
-msgstr "%1 맞음"
+msgstr ""
 
 #. ($e_user_name)
 #: ContentGenerator/Options.pm:171
 msgid "%1's Current Address"
-msgstr "%1님의 현재 주소"
+msgstr "%1의 현재 주소"
 
 #. ($user_name)
 #: ContentGenerator/Options.pm:126
 msgid "%1's Current Password"
-msgstr "%1님의 현재 비밀번호"
+msgstr "%1의 현재 비밀번호"
 
 #. ($e_user_name)
 #: ContentGenerator/Options.pm:175
 msgid "%1's New Address"
-msgstr "%1님의 새 주소"
+msgstr "%1의 새 주소"
 
 #. ($e_user_name)
 #: ContentGenerator/Options.pm:130
 msgid "%1's New Password"
-msgstr "%1님의 새 비밀번호"
+msgstr "%1의 새 비밀번호"
 
 #. ($e_user_name)
 #: ContentGenerator/Options.pm:101
 msgid "%1's new password cannot be blank."
-msgstr "%1님의 새 비밀번호를 입력해주세요"
+msgstr "%1의 새 비밀번호를 입력해주세요"
 
 #. ($e_user_name)
 #: ContentGenerator/Options.pm:84
 msgid "%1's password has been changed."
-msgstr "%1님의 비밀번호가 변경되었습니다"
+msgstr "%1의 비밀번호가 변경되었습니다"
 
 #. ($setID, $problemID)
 #: ContentGenerator/Problem.pm:884
@@ -92,7 +91,7 @@ msgstr "%1: 문제 %2"
 #. ($numBlanks)
 #: ContentGenerator/Problem.pm:319
 msgid "%quant(%1,of the questions remains,of the questions remain) unanswered."
-msgstr "%quant(%1, 전체 문제 중)문제가 입력되지 않았습니다."
+msgstr ""
 
 #: ContentGenerator/Problem.pm:1188
 msgid "(This problem will not count towards your grade.)"
@@ -100,22 +99,22 @@ msgstr "(이 문제는 성적에 들어가지 않습니다.)"
 
 #: ContentGenerator/Problem.pm:1299
 msgid "ANSWERS ONLY CHECKED -- ANSWERS NOT RECORDED"
-msgstr "답안만 체크됨 -- 답안 기록되지 않음"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1708
 #: ContentGenerator/Instructor/UserList.pm:1391
 #: ContentGenerator/Instructor/UserList.pm:1463
 msgid "Abandon changes"
-msgstr "변경사항 취소"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1647
 msgid "Abandon export"
-msgstr "저장후 내보내기 취소"
+msgstr ""
 
 #. ($eUserID)
 #: ContentGenerator.pm:848
 msgid "Acting as %1. "
-msgstr "%1 실행중"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1927
 msgid "Active"
@@ -136,23 +135,23 @@ msgstr "위의 답안은 모두 정답입니다."
 #. ($verb)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1052
 msgid "All selected sets %1 all students"
-msgstr "선택된 모든 문제집 1% 모든 학생"
+msgstr ""
 
 #. ($verb)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1046
 msgid "All sets %1 all students"
-msgstr "모든 문제집 %1 모든 학생들"
+msgstr ""
 
 #. ($verb)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1049
 msgid "All visible sets %1 all students"
-msgstr "보이는 모든 문제집 %1 모든 학생들"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:446
 #: ContentGenerator/Instructor/ProblemSetList.pm:832
 #: ContentGenerator/Instructor/ProblemSetList.pm:870
 msgid "Answer Date"
-msgstr "대답한 날짜"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:242
 msgid "Answer Preview"
@@ -160,19 +159,19 @@ msgstr "정답 미리보기"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:531
 msgid "Any changes made below will be reflected in the set for ALL students."
-msgstr "아래에 변경된 사항은 모든 학생들 문제집에 반영됩니다."
+msgstr ""
 
 #: ContentGenerator.pm:1481
 msgid "Apply Options"
-msgstr "적용"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1545
 msgid "Assign this set to which users?"
-msgstr "이 문제집을 할당할 사용자는?"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:2064
 msgid "Assigned Sets"
-msgstr "할당된 문제집"
+msgstr ""
 
 #. ($fully)
 #: ContentGenerator/Problem.pm:315
@@ -181,21 +180,21 @@ msgstr "제출 답안 중 최소 한 개가 %1 올바르지 않습니다. "
 
 #: ContentGenerator/ProblemSet.pm:350
 msgid "Attempts"
-msgstr "시도"
+msgstr ""
 
 #. ($eUserID,$@)
 #: ContentGenerator/Options.pm:71
 msgid "Can't get password record for effective user '%1': %2"
-msgstr "유효사용자 '%1'를 위한 비밀번호 기록이 없음: %2"
+msgstr ""
 
 #. ($userID,$@)
 #: ContentGenerator/Options.pm:68
 msgid "Can't get password record for user '%1': %2"
-msgstr "사용자 '%1'를 위한 비밀번호 기록이 없음: %2"
+msgstr ""
 
 #: ContentGenerator/Options.pm:142
 msgid "Change Email Address"
-msgstr "이메일주소 변경"
+msgstr ""
 
 #: ContentGenerator/Options.pm:61
 msgid "Change Password"
@@ -204,7 +203,7 @@ msgstr "비밀번호 변경"
 #: ContentGenerator/Instructor/UserList.pm:1409
 #: ContentGenerator/Instructor/UserList.pm:1481
 msgid "Changes abandoned"
-msgstr "변경 취소"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1457
 msgid "Changes saved"
@@ -216,29 +215,28 @@ msgstr "정답 확인"
 
 #: ContentGenerator/Problem.pm:1227
 msgid "Checking additional error messages"
-msgstr "추가 오류 메시지 확인"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1011
 msgid "Choose visibility of the sets to be affected"
-msgstr "보여질 문제집 선택"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1084
 #: ContentGenerator/Instructor/ProblemSetList.pm:982
 msgid "Choose which sets to be affected"
-msgstr "적용될 문제집을 선택하세요"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:597
 #: ContentGenerator/Instructor/UserList.pm:550
 #: ContentGenerator/ProblemSets.pm:288
 msgid "Clear"
-msgstr "Clear"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:562
 msgid ""
 "Click on the login name to edit individual problem set data, (e.g. due "
 "dates) for these students."
 msgstr ""
-"개인별 문제집 데이터(예. 마감기한)를 편집하기 위해 로그인 이름을 클릭하세요."
 
 #: ContentGenerator/ProblemSets.pm:435
 msgid "Closed"
@@ -255,7 +253,7 @@ msgstr "코멘트"
 #. ($e_user_name)
 #: ContentGenerator/Options.pm:134 ContentGenerator/Options.pm:95
 msgid "Confirm %1's New Password"
-msgstr "%1님의 새 비밀번호 확인"
+msgstr ""
 
 #: ContentGenerator/Login.pm:206
 msgid "Continue"
@@ -268,7 +266,7 @@ msgstr "수정"
 #. ($e_user_name,$@)
 #: ContentGenerator/Options.pm:80
 msgid "Couldn't change %1's password: %2"
-msgstr "%1님의 비밀번호 변경 실패: %2"
+msgstr ""
 
 #. ($@)
 #: ContentGenerator/Options.pm:153
@@ -277,41 +275,41 @@ msgstr "이메일주소를 변경할 수 없습니다: %1"
 
 #: ContentGenerator/ProblemSets.pm:71 ContentGenerator/ProblemSets.pm:73
 msgid "Course Info"
-msgstr "수업 정보"
+msgstr "강의 정보"
 
 #: ContentGenerator.pm:657 ContentGenerator/Home.pm:94
 msgid "Courses"
-msgstr "수업내역"
+msgstr "강의내역"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1351
 msgid "Create as what type of set?"
-msgstr "어떤 종류의 문제집으로 생성?"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1263
 #: ContentGenerator/Instructor/UserList.pm:1082
 msgid "Delete how many?"
-msgstr "삭제할 개수는?"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1119
 msgid "Disable"
-msgstr "사용 불가능"
+msgstr ""
 
 #: ContentGenerator.pm:1442
 msgid "Display Options"
-msgstr "디스플레이 옵션"
+msgstr ""
 
 #. ($pl)
 #: ContentGenerator/ProblemSets.pm:283
 msgid "Download Hardcopy for Selected %plural(%1,Set,Sets)"
-msgstr "선택된 %plural(%1, Set, Sets)에 Hardcopy 다운로드"
+msgstr ""
 
 #: ContentGenerator/ProblemSet.pm:321
 msgid "Download PDF or TeX Hardcopy for Current Set"
-msgstr "PDF 다운로드 혹은 현재 문제집을 TeX Hardcopy"
+msgstr ""
 
 #: ContentGenerator/ProblemSets.pm:289
 msgid "Download PDF or TeX Hardcopy for Selected Sets"
-msgstr "선택된 문제집의 PDF또는 TeX Hardcopy 다운로드"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:445
 #: ContentGenerator/Instructor/ProblemSetList.pm:831
@@ -321,7 +319,7 @@ msgstr "마감일"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1812
 msgid "Duplicate this set and name it"
-msgstr "이 문제집 복사 후 이름 바꾸기"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1720
 #: ContentGenerator/Instructor/UserList.pm:1785
@@ -331,15 +329,15 @@ msgstr "편집"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:603
 msgid "Edit All Set Data"
-msgstr "모든 문제집 데이터 수정"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:439
 msgid "Edit Assigned Users"
-msgstr "배정된 사용자 편집하기"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:438
 msgid "Edit Problems"
-msgstr "문제 수정하기"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:441
 msgid "Edit Set Data"
@@ -347,7 +345,7 @@ msgstr "문제집 데이터 편집"
 
 #: ContentGenerator/Instructor/UserList.pm:961
 msgid "Edit Which Users?"
-msgstr "수정할 사용자는?"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:1011
 msgid "Edit this problem"
@@ -355,7 +353,7 @@ msgstr "이 문제 수정하기"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:923
 msgid "Edit which sets?"
-msgstr "수정할 문제집은?"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:2067
 #: ContentGenerator/Instructor/UserList.pm:285
@@ -371,29 +369,29 @@ msgstr "강사에게 이메일 전송"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1120
 msgid "Enable"
-msgstr "사용 가능"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:604
 msgid "Enable Reduced Credit"
-msgstr "감점 가능"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1113
 msgid "Enable/Disable reduced scoring for selected sets"
-msgstr "선택된 문제집에 감점 가능/불가능"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:815
 #: ContentGenerator/Instructor/UserList.pm:858
 #: ContentGenerator/Instructor/UserList.pm:901
 msgid "Enrollment Status"
-msgstr "등록 현황"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1321
 msgid "Enter filename below"
-msgstr "아래에 파일명을 입력해주세요"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1502
 msgid "Enter filenames below"
-msgstr "아래에 파일명을 입력해주세요"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:240
 msgid "Entered"
@@ -401,47 +399,47 @@ msgstr "접속됨"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1671
 msgid "Export selected sets"
-msgstr "선택된 문제집 저장 후 내보내기"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1317
 msgid "Export to what kind of file?"
-msgstr "저장 후 내보낼 파일 종류?"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1604
 msgid "Export which sets?"
-msgstr "저장 후 내보낼 문제집은?"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1292
 msgid "Export which users?"
-msgstr "저장 후 내보낼 사용자는?"
+msgstr ""
 
 #. ($@)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1435
 msgid "Failed to create new set: %1"
-msgstr "새로운 문제집:%1 생성 실패"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1374
 msgid "Failed to create new set: no set name specified!"
-msgstr "새로운 문제집 생성 실패: 문제집 이름 없음!"
+msgstr ""
 
 #. ($@)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1848
 msgid "Failed to duplicate set: %1"
-msgstr "문제집:%1 복사 실패"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1832
 msgid "Failed to duplicate set: no set name specified!"
-msgstr "문제집 복사 실패: 문제집 이름이 없음!"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1396
 #: ContentGenerator/Instructor/ProblemSetList.pm:1830
 msgid "Failed to duplicate set: no set selected for duplication!"
-msgstr "문제집 복사 실패: 복사할 문제집이 선택되지 않음! "
+msgstr ""
 
 #. ($newSetID)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1834
 msgid "Failed to duplicate set: set %1 already exists!"
-msgstr "문제집 복사 실패 : 문제집 %1이 이미 존재합니다!"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1339
 msgid "Filename"
@@ -449,7 +447,7 @@ msgstr "파일명"
 
 #: ContentGenerator/Instructor/UserList.pm:678
 msgid "Filter by what text?"
-msgstr "어떤 문자열을 필터하시겠습니까?"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:2065
 #: ContentGenerator/Instructor/UserList.pm:283
@@ -461,7 +459,7 @@ msgstr "성"
 
 #: ContentGenerator/Instructor/UserList.pm:1020
 msgid "Give new password to which users?"
-msgstr "새 비밀번호를 부여할 사용자는?"
+msgstr ""
 
 #: ContentGenerator/Login.pm:231
 msgid "Guest Login"
@@ -471,7 +469,7 @@ msgstr "게스트 로그인"
 #: ContentGenerator/Instructor/ProblemSetList.pm:829
 #: ContentGenerator/Instructor/ProblemSetList.pm:867
 msgid "Hardcopy Header"
-msgstr "Hardcopy Header"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1017
 msgid "Hidden"
@@ -490,19 +488,19 @@ msgstr "비밀번호를 공백으로 두면, 학생의 현재 비밀번호로 �
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1498
 msgid "Import from where?"
-msgstr "어디서 가져오겠습니까?"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1473
 msgid "Import how many sets?"
-msgstr "가져올 문제집 개수는?"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1520
 msgid "Import sets with names"
-msgstr "새로운 이름으로 문제집 가져오기"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1165
 msgid "Import users from what file?"
-msgstr "어떤 파일에서 사용자를 가져오겠습니까?"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1927
 msgid "Inactive"
@@ -539,7 +537,7 @@ msgstr "로그아웃"
 #. ($userID)
 #: ContentGenerator.pm:845 ContentGenerator.pm:847
 msgid "Logged in as %1. "
-msgstr "%1으로 로그인"
+msgstr "%1으로 로그인됨"
 
 #: ContentGenerator/Login.pm:74 ContentGenerator/Login.pm:77
 msgid "Login Info"
@@ -563,7 +561,7 @@ msgstr "메   뉴"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:705
 msgid "Match on what? (separate multiple IDs with commas)"
-msgstr "무엇과 대응됩니까? (여러개의 ID를 콤마로 구별하시오) "
+msgstr ""
 
 #: ContentGenerator/Problem.pm:245
 msgid "Messages"
@@ -576,7 +574,7 @@ msgstr "이름"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1328
 msgid "Name the new set"
-msgstr "새로운 문제집 이름"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1937
 #: ContentGenerator/Instructor/UserList.pm:2077
@@ -599,52 +597,50 @@ msgstr "아니오"
 #: ContentGenerator/Instructor/ProblemSetList.pm:1043
 #: ContentGenerator/Instructor/ProblemSetList.pm:1145
 msgid "No change made to any set"
-msgstr "문제집에 변화없음"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1217
 msgid "No sets selected for scoring"
-msgstr "점수기록할 문제집이 선택되지 않음."
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:266
 msgid "No sets selected for scoring."
-msgstr "점수기록할 문제집이 선택되지 않음."
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:2722
 msgid ""
 "No sets shown.  Choose one of the options above to list the sets in the "
 "course."
-msgstr "문제집이 없습니다. 기입할 문제집을 위해 강좌에서 옵션을 선택해주세요."
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:2110
 msgid ""
 "No students shown.  Choose one of the options above to \n"
 "\t              list the students in the course."
 msgstr ""
-"학생들이 보이지않음. 위의 옵션 중 하나를 선택하여 \n"
-"\t 학생들 명단을 작성하세요."
 
 #: ContentGenerator.pm:851
 msgid "Not logged in."
-msgstr "로그인 실패"
+msgstr "로그인 안됨"
 
 #: ContentGenerator/Problem.pm:975
 msgid "Note"
-msgstr "공지"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:444
 #: ContentGenerator/Instructor/ProblemSetList.pm:830
 #: ContentGenerator/Instructor/ProblemSetList.pm:868
 msgid "Open Date"
-msgstr "날짜 열기"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:1307
 msgid "PREVIEW ONLY -- ANSWERS NOT RECORDED"
-msgstr "미리보기만 -- 답이 입력되지 않았습니다"
+msgstr ""
 
 #. (timestamp($self)
 #: ContentGenerator.pm:953
 msgid "Page generated at %1"
-msgstr "페이지 생성 1% "
+msgstr ""
 
 #: ContentGenerator/Login.pm:202
 msgid "Password"
@@ -661,7 +657,7 @@ msgstr "허용 레벨"
 #. (CGI::b($r->maketext($course)
 #: ContentGenerator/Login.pm:154
 msgid "Please enter your username and password for %1 below:"
-msgstr "사용자이름과 비밀번호를 입력해주세요 %1"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:396
 msgid "Please select action to be performed."
@@ -695,66 +691,66 @@ msgstr "문제"
 #: ContentGenerator/Instructor/UserList.pm:860
 #: ContentGenerator/Instructor/UserList.pm:903
 msgid "Recitation"
-msgstr "설명"
+msgstr ""
 
 #. ($verb)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1148
 msgid "Reduced Credit %1 for all sets"
-msgstr "모든 문제집에 감점 %1"
+msgstr ""
 
 #. ($verb)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1154
 msgid "Reduced Credit %1 for selected sets"
-msgstr "선택된 문제집에 감점 %1"
+msgstr ""
 
 #. ($verb)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1151
 msgid "Reduced Credit %1 for visable sets"
-msgstr "보이는 문제집에 감점 %1"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:2523
 msgid "Reduced Credit Disabled"
-msgstr "감점 불가능"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:2523
 #: ContentGenerator/Instructor/ProblemSetList.pm:448
 msgid "Reduced Credit Enabled"
-msgstr "감점 가능"
+msgstr ""
 
 #. ($beginReducedScoringPeriod)
 #: ContentGenerator/ProblemSets.pm:459
 msgid "Reduced Credit Starts: %1"
-msgstr "감점 시작: %1"
+msgstr ""
 
 #: ContentGenerator/ProblemSet.pm:351
 msgid "Remaining"
-msgstr "시도 횟수"
+msgstr ""
 
 #: ContentGenerator/Login.pm:204
 msgid "Remember Me"
-msgstr "나를 기억해주세요"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1190
 msgid "Replace which users?"
-msgstr "바꿀 사용자는?"
+msgstr ""
 
 #: ContentGenerator.pm:799
 msgid "Report bugs"
-msgstr "오류 보고"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:244
 msgid "Result"
-msgstr "결과"
+msgstr ""
 
 #. (CGI::i($self->$actionHandler(\%genericParams, \%actionParams,
 #. \%tableParams)
 #: ContentGenerator/Instructor/UserList.pm:376
 msgid "Result of last action performed: %1"
-msgstr "마지막으로 실행된 결과: %1"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:386
 msgid "Results of last action performed"
-msgstr "마지막으로 실행된 결과"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1732
 #: ContentGenerator/Instructor/UserList.pm:1415
@@ -764,7 +760,7 @@ msgstr "변경사항 저장"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1186
 msgid "Score which sets?"
-msgstr "점수매길 문제집은?"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:2070
 #: ContentGenerator/Instructor/UserList.pm:288
@@ -772,35 +768,35 @@ msgstr "점수매길 문제집은?"
 #: ContentGenerator/Instructor/UserList.pm:859
 #: ContentGenerator/Instructor/UserList.pm:902
 msgid "Section"
-msgstr "섹션"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:582
 msgid "Select all sets"
-msgstr "모든 문제집 선택"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:535
 msgid "Select all users"
-msgstr "모든 사용자 선택"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:534
 #: ContentGenerator/Instructor/UserList.pm:512
 msgid "Select an action to perform"
-msgstr "실행할 동작을 선택하세요"
+msgstr ""
 
 #. ($newSetID)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1375
 msgid "Set %1 exists.  No set created"
-msgstr "문제집 %1 존재함. 생성된 문제집 없음."
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:440
 msgid "Set Definition Filename"
-msgstr "문제집 정의 파일명"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:442
 #: ContentGenerator/Instructor/ProblemSetList.pm:828
 #: ContentGenerator/Instructor/ProblemSetList.pm:866
 msgid "Set Header"
-msgstr "문제집 헤더"
+msgstr ""
 
 #: ContentGenerator/ProblemSet.pm:273 ContentGenerator/ProblemSet.pm:275
 msgid "Set Info"
@@ -833,7 +829,7 @@ msgstr "풀이 보기"
 
 #: ContentGenerator/Instructor/UserList.pm:645
 msgid "Show Which Users?"
-msgstr "보여줄 사용자는?"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:1044
 msgid "Show correct answers"
@@ -841,22 +837,22 @@ msgstr "정답 보기"
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:683
 msgid "Show which sets?"
-msgstr "보여줄 문제집은?"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:497
 #: ContentGenerator/Instructor/UserList.pm:475
 msgid "Show/Hide Site Description"
-msgstr "사이트 설명 보이기/감추기"
+msgstr ""
 
 #. (scalar @visibleSetIDs, scalar @allSetIDs)
 #: ContentGenerator/Instructor/ProblemSetList.pm:607
 msgid "Showing %1 out of %2 sets."
-msgstr "2% 문제집 중에 1% 보이기"
+msgstr ""
 
 #. (scalar @Users, scalar @allUserIDs)
 #: ContentGenerator/Instructor/UserList.pm:556
 msgid "Showing %1 out of %2 users"
-msgstr "2% 사용자 중에 1% 보이기"
+msgstr ""
 
 #: ContentGenerator/Login.pm:96 ContentGenerator/Login.pm:99
 msgid "Site Information"
@@ -865,12 +861,12 @@ msgstr "사이트 정보"
 #: ContentGenerator/Instructor/ProblemSetList.pm:821
 #: ContentGenerator/Instructor/UserList.pm:804
 msgid "Sort by"
-msgstr "분류"
+msgstr ""
 
 #. ($names{$primary}, $names{$secondary})
 #: ContentGenerator/Instructor/ProblemSetList.pm:899
 msgid "Sort by %1 and then by %2"
-msgstr "%1로 분류하고 %2로 분류함"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:2069
 #: ContentGenerator/Instructor/UserList.pm:287
@@ -881,7 +877,7 @@ msgstr "상태"
 
 #: ContentGenerator.pm:848
 msgid "Stop Acting"
-msgstr "동작 중지"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:2068
 #: ContentGenerator/Instructor/UserList.pm:286
@@ -907,7 +903,7 @@ msgstr "성공"
 #. ($newSetID)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1437
 msgid "Successfully created new set %1"
-msgstr "새로운 문제집 %1이 성공적으로 생성되었습니다"
+msgstr ""
 
 #. ($name)
 #: ContentGenerator/ProblemSets.pm:424 ContentGenerator/ProblemSets.pm:433
@@ -918,7 +914,7 @@ msgstr "%1 시험 보기"
 #: ContentGenerator/Instructor/ProblemSetList.pm:598
 #: ContentGenerator/Instructor/UserList.pm:551
 msgid "Take Action!"
-msgstr "실행!"
+msgstr ""
 
 #: ContentGenerator/ProblemSets.pm:236
 msgid "Test Date"
@@ -949,10 +945,6 @@ msgid ""
 "\t\t\t\t\t\tpassword. Please retype your current password and try\n"
 "\t\t\t\t\t\tagain."
 msgstr ""
-"%1 \n"
-"\t\t\t\t\t\t필드에입력한 비밀번호가 현재 비밀번호 \n"
-"\t\t\t\t\t\t와 맞지 않습니다. 현재 비밀번호를 재입력하고 \n"
-"\t\t\t\t\t\t를 다시 시도해주세요."
 
 #. (CGI::b($r->maketext("[_1]'s New Password",$e_user_name)
 #: ContentGenerator/Options.pm:91
@@ -962,33 +954,29 @@ msgid ""
 "\t\t\t\t\t\t\t\tfields don't match. Please retype your new password and try\n"
 "\t\t\t\t\t\t\t\tagain."
 msgstr ""
-"입력한 비밀번호가  \n"
-"\t\t\t\t\t\t\t\t%1 과 %2\n"
-"\t\t\t\t\t\t\t\t필드에 맞지 않습니다. 새로운 비밀번호를 입력해주시고 \n"
-"\t\t\t\t\t\t\t\t 다시 시도해주세요."
 
 #. ($setName,$effectiveUser)
 #: ContentGenerator/ProblemSet.pm:308
 msgid "The selected problem set (%1) is not a valid set for %2"
-msgstr "선택된 문제집(%1)이 유효한 문제집 %2이 아닙니다"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:859
 #: ContentGenerator/Instructor/UserList.pm:847
 #: ContentGenerator/Instructor/UserList.pm:890
 msgid "Then by"
-msgstr "그러면"
+msgstr ""
 
 #: ContentGenerator/ProblemSet.pm:365
 msgid "This homework set contains no problems."
-msgstr "이 문제집에는 문제가 없습니다."
+msgstr "이 문제풀이집에는 문제가 없습니다."
 
 #: ContentGenerator/Problem.pm:1175
 msgid "This homework set is closed."
-msgstr "이 문제집은 닫혔습니다."
+msgstr "이 문제풀이집은 닫혔습니다."
 
 #: ContentGenerator/Problem.pm:1173
 msgid "This homework set is not yet open."
-msgstr "이 문제집은 아직 열리지 않습니다."
+msgstr "이 문제풀이집은 아직 열리지 않습니다."
 
 #: ContentGenerator/Problem.pm:611
 msgid "This problem will not count towards your grade."
@@ -997,19 +985,19 @@ msgstr "이 문제는 성적에 들어가지 않습니다."
 #. (CGI::font({class=>$visiblityStateClass}, $visiblityStateText)
 #: ContentGenerator/Problem.pm:605 ContentGenerator/ProblemSet.pm:88
 msgid "This set is %1"
-msgstr "이 문제집은 %1입니다"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:588
 msgid "Unselect all sets"
-msgstr "모든 문제집 선택 해제"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:541
 msgid "Unselect all users"
-msgstr "모든 사용자 선택 해제"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:2683
 msgid "Use System Default"
-msgstr "시스템 초기값 사용"
+msgstr ""
 
 #: ContentGenerator/Login.pm:200
 msgid "Username"
@@ -1022,7 +1010,7 @@ msgstr "사용자 리스트"
 #. ($names{$primary}, $names{$secondary}, $names{$ternary})
 #: ContentGenerator/Instructor/UserList.pm:938
 msgid "Users sorted by %1, then by %2, then by %3"
-msgstr "%1로, %2로, %3로 분류된 사용자, "
+msgstr ""
 
 #: ContentGenerator/ProblemSet.pm:230
 msgid "Viewing temporary file"
@@ -1035,17 +1023,17 @@ msgstr "임시파일 보이기:"
 #: ContentGenerator/Instructor/ProblemSetList.pm:833
 #: ContentGenerator/Instructor/ProblemSetList.pm:871
 msgid "Visibility"
-msgstr "보임"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1018
 #: ContentGenerator/Instructor/ProblemSetList.pm:447
 msgid "Visible"
-msgstr "보임"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1259
 #: ContentGenerator/Instructor/UserList.pm:1078
 msgid "Warning: Deletion destroys all user-related data and is not undoable!"
-msgstr "경고: 삭제시 모든 사용자 관련 정보가 사라지고, 복구되지 않습니다!"
+msgstr ""
 
 #: ContentGenerator/Home.pm:87
 msgid "Welcome to WeBWorK!"
@@ -1053,11 +1041,11 @@ msgstr "WeBWorK에 오신 걸 환영합니다!"
 
 #: ContentGenerator/Instructor/UserList.pm:665
 msgid "What field should filtered users match on?"
-msgstr "어떤 필드에 필터된 사용자가 맞습니까?"
+msgstr ""
 
 #: ContentGenerator/ProblemSet.pm:352
 msgid "Worth"
-msgstr "점수"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:2625
 #: ContentGenerator/Instructor/ProblemSetList.pm:2626
@@ -1076,7 +1064,7 @@ msgstr "문제집을 변경할 권한이 없습니다."
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:344
 msgid "You are not authorized to modify set definition files."
-msgstr "문제집 정의 파일을 변경할 권한이 없습니다."
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:329
 #: ContentGenerator/Instructor/UserList.pm:335
@@ -1086,7 +1074,7 @@ msgstr "학생 데이터를 변경할 권한이 없습니다."
 #: ContentGenerator/Instructor/ProblemSetList.pm:389
 #: ContentGenerator/Instructor/UserList.pm:380
 msgid "You are not authorized to perform this action."
-msgstr "이 동작을 취할 권한이 없습니다."
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1121
 msgid "You cannot delete yourself!"
@@ -1108,29 +1096,29 @@ msgstr "%1 %2 남았습니다."
 #. ($attemptsLeft)
 #: ContentGenerator/Problem.pm:1197
 msgid "You have %negquant(%1,unlimited attempts,attempt,attempts) remaining."
-msgstr "무제한으로 시도할 수 있습니다."
+msgstr ""
 
 #. ($attempts)
 #: ContentGenerator/Problem.pm:1191
 msgid "You have attempted this problem %quant(%1,time,times)."
-msgstr "이 문제를 %quant(%1, 번) 시도했습니다."
+msgstr ""
 
 #: ContentGenerator/Logout.pm:119
 msgid "You have been logged out of WeBWorK."
-msgstr "WeBWorK에서 로그아웃되었습니다."
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1933
 msgid "You may not change your own password here!"
-msgstr "여기서 비밀번호를 바꿀 수 없습니다!"
+msgstr ""
 
 #: Authen.pm:317
 msgid "You must specify a user ID."
-msgstr "사용자 ID를 명시해주세요."
+msgstr ""
 
 #. (sprintf("%.0f%%", $pg->{result}->{score} * 100)
 #: ContentGenerator/Problem.pm:1192
 msgid "You received a score of %1 for this attempt."
-msgstr "이번 시도로 %1의 점수를 얻었습니다."
+msgstr ""
 
 #: ContentGenerator/Options.pm:157
 msgid "Your email address has been changed."
@@ -1139,64 +1127,64 @@ msgstr "이메일 주소가 변경되었습니다."
 #. ($lastScore,$notCountedMessage)
 #: ContentGenerator/Problem.pm:1194
 msgid "Your overall recorded score is %1.  %2"
-msgstr "총점은 %1입니다. %2"
+msgstr ""
 
 #: Authen.pm:416
 msgid "Your session has timed out due to inactivity. Please log in again."
-msgstr "로그인 시간이 지났습니다. 다시 로그인해 주세요."
+msgstr ""
 
 #: ContentGenerator/ProblemSet.pm:273 ContentGenerator/ProblemSets.pm:71
 msgid "[edit]"
-msgstr "[편집]"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:476
 msgid "_CLASSLIST_EDITOR_DESCRIPTION"
-msgstr "_CLASSLIST_편집자_설명"
+msgstr ""
 
 #. (CGI::strong($r->maketext($course)
 #: ContentGenerator/Login.pm:151
 msgid "_EXTERNAL_AUTH_MESSAGE"
-msgstr "_외부_권한_메시지"
+msgstr ""
 
 #. (CGI::b($r->maketext("Guest Login")
 #: ContentGenerator/Login.pm:230
 msgid "_GUEST_LOGIN_MESSAGE"
-msgstr "_게스트_로그인_메시지"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:498
 msgid "_HMWKSETS_EDITOR_DESCRIPTION"
-msgstr "_문제집_편집자_정보"
+msgstr ""
 
 #. (CGI::b($r->maketext("Remember Me")
 #: ContentGenerator/Login.pm:155
 msgid "_LOGIN_MESSAGE"
-msgstr "_로그인_메시지"
+msgstr ""
 
 #. ($beginReducedScoringPeriod,$dueDate,$reducedScoringPerCent)
 #: ContentGenerator/ProblemSet.pm:333
 msgid "_REDUCED_CREDIT_MESSAGE_1"
-msgstr "_감점_메시지_1"
+msgstr ""
 
 #. ($beginReducedScoringPeriod,$dueDate,$reducedScoringPerCent)
 #: ContentGenerator/ProblemSet.pm:335
 msgid "_REDUCED_CREDIT_MESSAGE_2"
-msgstr "_감점_메시지_2"
+msgstr ""
 
 #: ContentGenerator.pm:1951
 msgid "_REQUEST_ERROR"
-msgstr "_오류_보고"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1358
 msgid "a duplicate of the first selected set"
-msgstr "첫번쨰 선택된 문제집 사본"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1357
 msgid "a new empty set"
-msgstr "새로운 빈 문제집"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1479
 msgid "a single set"
-msgstr "문제집 하나"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1091
 #: ContentGenerator/Instructor/ProblemSetList.pm:1193
@@ -1205,7 +1193,7 @@ msgstr "문제집 하나"
 #: ContentGenerator/Instructor/ProblemSetList.pm:929
 #: ContentGenerator/Instructor/ProblemSetList.pm:989
 msgid "all sets"
-msgstr "모든 문제집"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1551
 #: ContentGenerator/Instructor/UserList.pm:1026
@@ -1218,19 +1206,19 @@ msgstr "모든 사용자"
 #: ContentGenerator/Instructor/UserList.pm:1196
 #: ContentGenerator/Instructor/UserList.pm:1226
 msgid "any users"
-msgstr "모든 사용자"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:1165
 msgid "attempt"
-msgstr "시도"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:1162 ContentGenerator/Problem.pm:1165
 msgid "attempts"
-msgstr "시도"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1726
 msgid "changes abandoned"
-msgstr "변경사항 취소됨"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1790
 msgid "changes saved"
@@ -1238,16 +1226,16 @@ msgstr "변경사항 저장"
 
 #: ContentGenerator/ProblemSets.pm:468
 msgid "closed, answers available"
-msgstr "닫힘, 답안 보기"
+msgstr ""
 
 #. ($self->formatDateTime($set->answer_date)
 #: ContentGenerator/ProblemSets.pm:464
 msgid "closed, answers on %1"
-msgstr "닫힘, 답안 %1"
+msgstr ""
 
 #: ContentGenerator/ProblemSets.pm:466
 msgid "closed, answers recently available"
-msgstr "닫힘, 정답 보기 가능"
+msgstr ""
 
 #: ContentGenerator/ProblemSets.pm:402
 msgid "completed."
@@ -1255,7 +1243,7 @@ msgstr "완료됨."
 
 #: ContentGenerator/Problem.pm:267
 msgid "completely"
-msgstr "완전히"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:264
 msgid "correct"
@@ -1264,117 +1252,117 @@ msgstr "수정"
 #. ($num)
 #: ContentGenerator/Instructor/ProblemSetList.pm:1310
 msgid "deleted %1 sets"
-msgstr "삭제된 문제집 %1"
+msgstr ""
 
 #. ($num)
 #: ContentGenerator/Instructor/UserList.pm:1135
 msgid "deleted %1 users"
-msgstr "삭제된 사용자 %1"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:947
 msgid "editing all sets"
-msgstr "모든 문제집 수정"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:985
 msgid "editing all users"
-msgstr "모든 사용자 수정"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:953
 msgid "editing selected sets"
-msgstr "선택된 문제집 수정"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:991
 msgid "editing selected users"
-msgstr "선택된 사용자 수정"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:950
 msgid "editing visible sets"
-msgstr "보이는 문제집 수정"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:988
 msgid "editing visible users"
-msgstr "보이는 사용자 수정"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:694
 msgid "enter matching set IDs below"
-msgstr "아래에 맞는 문제집 ID 입력"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1665
 msgid "export abandoned"
-msgstr "내보내기 취소"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1629
 msgid "exporting all sets"
-msgstr "모든 문제집 내보내기"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1636
 msgid "exporting selected sets"
-msgstr "선택된 문제집 저장 후 내보내기"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1633
 msgid "exporting visible sets"
-msgstr "보이는 문제집 저장 후 내보내기"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1044
 msgid "giving new passwords to all users"
-msgstr "모든 사용자에게 새 비밀번호 부여"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1050
 msgid "giving new passwords to selected users"
-msgstr "선택된 사용자에게 새 비밀번호 부여"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1047
 msgid "giving new passwords to visible users"
-msgstr "보이는 사용자에게 새 비밀번호 부여"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:2522
 #: ContentGenerator/Problem.pm:603
 msgid "hidden"
-msgstr "숨김"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:604 ContentGenerator/ProblemSet.pm:86
 msgid "hidden from students"
-msgstr "학생들로부터 숨김"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:693
 msgid "hidden sets"
-msgstr "숨겨진 문제집"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:266
 msgid "incorrect"
-msgstr "실패"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1480
 msgid "multiple sets"
-msgstr "많은 문제집"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:864
 msgid "navNext"
-msgstr "navNext"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:866
 msgid "navNextGrey"
-msgstr "navNextGrey"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:850
 msgid "navPrev"
-msgstr "navPrev"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:852
 msgid "navPrevGrey"
-msgstr "navPrevGrey"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:856
 msgid "navProbList"
-msgstr "navProbList"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:858
 msgid "navProbListGrey"
-msgstr "navProbListGrey"
+msgstr ""
 
 #: ContentGenerator/ProblemSet.pm:110
 msgid "navUp"
-msgstr "navUp"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1090
 #: ContentGenerator/Instructor/ProblemSetList.pm:1192
@@ -1382,7 +1370,7 @@ msgstr "navUp"
 #: ContentGenerator/Instructor/ProblemSetList.pm:690
 #: ContentGenerator/Instructor/ProblemSetList.pm:988
 msgid "no sets"
-msgstr "없는 문제집입니다"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1552
 #: ContentGenerator/Instructor/UserList.pm:1088
@@ -1390,20 +1378,20 @@ msgstr "없는 문제집입니다"
 #: ContentGenerator/Instructor/UserList.pm:1227
 #: ContentGenerator/Instructor/UserList.pm:652
 msgid "no users"
-msgstr "없는 사용자입니다"
+msgstr ""
 
 #: ContentGenerator/ProblemSets.pm:430 ContentGenerator/ProblemSets.pm:452
 msgid "now open, due "
-msgstr "열림, 기한"
+msgstr ""
 
 #. ($self->formatDateTime($set->due_date()
 #: ContentGenerator/ProblemSets.pm:408
 msgid "open: complete by %1"
-msgstr "열기: 1% 완료"
+msgstr ""
 
 #: ContentGenerator/ProblemSets.pm:405
 msgid "over time: closed."
-msgstr "시간 초과: 닫힘"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1093
 #: ContentGenerator/Instructor/ProblemSetList.pm:1194
@@ -1413,7 +1401,7 @@ msgstr "시간 초과: 닫힘"
 #: ContentGenerator/Instructor/ProblemSetList.pm:931
 #: ContentGenerator/Instructor/ProblemSetList.pm:991
 msgid "selected sets"
-msgstr "선택된 문제집"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1028
 #: ContentGenerator/Instructor/UserList.pm:1090
@@ -1422,23 +1410,23 @@ msgstr "선택된 문제집"
 #: ContentGenerator/Instructor/UserList.pm:653
 #: ContentGenerator/Instructor/UserList.pm:969
 msgid "selected users"
-msgstr "선택된 사용자"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:762
 msgid "showing all sets"
-msgstr "선택된 모든 문제집"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:738
 msgid "showing all users"
-msgstr "선택된 모든 사용자"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:747
 msgid "showing matching users"
-msgstr "알맞는 사용자 보이기"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:765
 msgid "showing no sets"
-msgstr "어떤 문제집도 보이지않기"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:741
 msgid "showing no users"
@@ -1458,11 +1446,11 @@ msgstr "답안 제출하기"
 
 #: ContentGenerator/Problem.pm:1154
 msgid "time"
-msgstr "시간"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:1154
 msgid "times"
-msgstr "번"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:1161 ContentGenerator/ProblemSet.pm:427
 msgid "unlimited"
@@ -1470,99 +1458,99 @@ msgstr "무제한"
 
 #: ContentGenerator/Instructor/UserList.pm:654
 msgid "users who match on selected field"
-msgstr "선택된 필드에 부합한 사용자"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:2522
 #: ContentGenerator/Problem.pm:603
 msgid "visible"
-msgstr "보임"
+msgstr ""
 
 #: ContentGenerator/Instructor/ProblemSetList.pm:1611
 #: ContentGenerator/Instructor/ProblemSetList.pm:692
 #: ContentGenerator/Instructor/ProblemSetList.pm:930
 msgid "visible sets"
-msgstr "풀이집 보임"
+msgstr ""
 
 #: ContentGenerator/Problem.pm:604 ContentGenerator/ProblemSet.pm:86
 msgid "visible to students"
-msgstr "학생들에게 보임"
+msgstr ""
 
 #: ContentGenerator/Instructor/UserList.pm:1027
 #: ContentGenerator/Instructor/UserList.pm:1197
 #: ContentGenerator/Instructor/UserList.pm:1299
 #: ContentGenerator/Instructor/UserList.pm:968
 msgid "visible users"
-msgstr "알아볼 수 있는 사용자"
+msgstr ""
 
 #. ($self->formatDateTime($set->open_date)
 #: ContentGenerator/ProblemSets.pm:420 ContentGenerator/ProblemSets.pm:448
 msgid "will open on %1"
-msgstr "%1후에 열립니다"
+msgstr ""
 
 msgid "Add to which set?"
-msgstr "추가할 문제집은?"
+msgstr ""
 
 msgid "Course Information for course [_1]"
-msgstr "강의 [_1]에 대한 강좌 정보"
+msgstr ""
 
 msgid "report bugs in this problem"
-msgstr "이 문제의 오류 보고하기"
+msgstr ""
 
 msgid "Problem [_1]"
-msgstr "문제 [_1]"
+msgstr ""
 
 msgid "Cancel Password"
-msgstr "비밀번호 취소"
+msgstr ""
 
 msgid "WeBWorK"
-msgstr "WeBWorK"
+msgstr ""
 
 msgid "Audit"
-msgstr "감사"
+msgstr ""
 
 msgid "Hardcopy Header for set [_1]"
-msgstr "문제집 [_1]의 Hardcopy 헤더"
+msgstr ""
 
 msgid ""
 "Report bugs in a WeBWorK question/problem using this link. The very first "
 "time you do this you will need to register with an email address so that "
 "information on the bug fix can be reported back to you."
-msgstr "이 링크를 이용하여 WeBWorK 질문/문제의 오류를 보고해주세요. 제일 처"
+msgstr ""
 
 msgid "Pad Fields"
-msgstr "필드 삽입"
+msgstr ""
 
 msgid "Set Header for set [_1]"
-msgstr "문제집 [_1]의 헤더"
+msgstr ""
 
 msgid "Statistics for [_1]"
-msgstr "[_1] 통계자료"
+msgstr ""
 
 msgid "Filter"
-msgstr "필터"
+msgstr ""
 
 msgid "set [_1]/problem [_2]"
-msgstr "문제집 [_1]/ 문제 [_2]"
+msgstr ""
 
 msgid "You are not authorized to modify problems."
-msgstr "문제를 변경할 권한이 없습니다."
+msgstr ""
 
 msgid "hardcopy header file"
-msgstr "hardcopy 헤더 파일"
+msgstr ""
 
 msgid ""
 "Write permissions have not been enabled in the templates directory.  No "
 "changes can be made."
-msgstr "템플릿 디렉토리에서 허가되지 않음. 변경할 수 없음."
+msgstr ""
 
 msgid "Save [_1] and View"
-msgstr "[_1]을 저장하고 보여주기"
+msgstr ""
 
 msgid "Create"
 msgstr "생성하기"
 
 msgid "Changes in this file have not yet been permanently saved."
-msgstr "이 파일의 변경사항이 영구적으로 저장되지 않았습니다."
+msgstr ""
 
 msgid "Instructor Tools"
 msgstr "강사 전용 도구"
@@ -1574,10 +1562,10 @@ msgid "Show in another window"
 msgstr "새 창에서 보이기"
 
 msgid "Copied auxiliary files from [_1] to  new location at [_2]"
-msgstr "[_1]에서 새 위치 [_2]로 복사된 보조파일"
+msgstr ""
 
 msgid "Unpublished"
-msgstr "출판되지않음"
+msgstr ""
 
 msgid "Login"
 msgstr "로그인"
@@ -1589,57 +1577,55 @@ msgid "File Manager"
 msgstr "파일 매니저"
 
 msgid "Unable to change the hardcopy header for set [_1]. Unknown error."
-msgstr "문제집 [_1]에서 hardcopy 헤더가 변경되지 않음. 알려지지 않은 오류."
+msgstr ""
 
 msgid "Unable to make '[_1]' the set header for [_2]"
-msgstr "'[_1]'을 [_2]의 문제집 헤더로 만들 수 없음"
+msgstr ""
 
 msgid "Can't determine user of temporary edit file [_1]."
-msgstr "임시 편집 파일 [_1]의 사용자를 결정할 수 없음"
+msgstr ""
 
 msgid "Download a hardcopy of this homework set."
-msgstr "이 문제집의 hardcopy 다운로드하기."
+msgstr ""
 
 msgid "Problem Editor"
 msgstr "문제 편집기"
 
 msgid "The file '[_1]' is protected!"
-msgstr "파일 [_1]이 보호되었습니다!"
+msgstr ""
 
 msgid "Top level of author information on the wiki."
-msgstr "wiki 상의 상위 작성자 정보 "
+msgstr ""
 
 msgid "Score selected set(s) and save to:"
-msgstr "선택된 문제집 점수 부여하고 저장:"
+msgstr ""
 
 msgid "Save Password"
 msgstr "비밀번호 저장"
 
 msgid "The file '[_1]' is a blank problem!"
-msgstr "파일 '[_1]'에 문제가 없습니다!"
+msgstr ""
 
 msgid "Add as what filetype?"
-msgstr "어떤 파일형식으로 추가하시겠습니까?"
+msgstr ""
 
 msgid "no action"
-msgstr "동작 멈춤"
+msgstr ""
 
 msgid "Added '[_1]' to [_2] as new set header"
-msgstr "[_2]에 새로운 문제집 헤더로 추가된 '[_1]'"
+msgstr ""
 
 msgid "View statistics by set"
-msgstr "문제집별 진행상황 통계 보기"
+msgstr ""
 
 msgid "Set"
-msgstr "문제집"
+msgstr ""
 
 msgid ""
 "This is a blank problem template file and can not be edited directly. Use "
 "the 'Save as' action below to create a local copy of the file and add it to "
 "the current problem set."
 msgstr ""
-"이것은 빈 문제 템플릿 파일이고 즉시 편집되지 않습니다. 아래의 '저장하기'를 사"
-"용하여 파일의 로컬 사본을 만들고 현재 문제집에 추가해주세요."
 
 msgid "Logout"
 msgstr "로그아웃"
@@ -1648,32 +1634,30 @@ msgid "You do not have permission to view the details of this error."
 msgstr "자세한 오류를 볼 권한이 없습니다."
 
 msgid "Reverting to original file '[_1]'"
-msgstr "원래 파일 '[_1]'으로 돌아가기"
+msgstr ""
 
 msgid "Delete"
 msgstr "삭제"
 
 msgid "Wiki summary page for MathObjects"
-msgstr "수학문제 페이지의 wiki 요약본"
+msgstr ""
 
 msgid "Your score was recorded."
-msgstr "점수가 기록되었습니다."
+msgstr ""
 
 msgid "You must specify an file name in order to save a new file."
-msgstr "새로운 파일을 저장하기 위해 파일명을 입력해주세요."
+msgstr ""
 
 msgid ""
 "To edit this text you must first make a copy of this file using the 'Save "
 "as' action below."
 msgstr ""
-"이 문자열을 수정하려면 아래의 '저장하기' 버튼을 이용해 파일을 먼저 복사해주세"
-"요."
 
 msgid "unassigned problem file"
-msgstr "선택되지 않은 문제 파일"
+msgstr ""
 
 msgid "View statistics by student"
-msgstr "학생별 진행상황 통계 보기"
+msgstr ""
 
 msgid "Publish"
 msgstr "출판"
@@ -1685,62 +1669,58 @@ msgid "Cancel Edit"
 msgstr "편집 취소"
 
 msgid "Math Objects"
-msgstr "수학 문제"
+msgstr ""
 
 msgid "Snippets of PG code illustrating specific techniques"
-msgstr "구체적인 기술을 보여주는 프로그램 코드 조각"
+msgstr ""
 
 msgid "Error copying [_1] to [_2]"
-msgstr "[_1]을 [_2]로 복사하는데 오류"
+msgstr ""
 
 msgid "Hmwk Sets Editor"
 msgstr "문제집 에디터"
 
 msgid "This set is [_1] students."
-msgstr "이 문제집은 [_1] 학생들입니다."
+msgstr ""
 
 msgid "header file"
 msgstr "헤더 파일"
 
 msgid "Include Index"
-msgstr "인덱스 포함"
+msgstr ""
 
 msgid "Display Mode"
-msgstr "디스플레이 모드"
+msgstr ""
 
 msgid "You can earn partial credit on this problem."
-msgstr "이 문제의 부분 점수를 받았습니다."
+msgstr ""
 
 msgid ""
 "Write permissions have not been enabled in '[_1]'.  Changes must be saved to "
 "a different directory for viewing."
 msgstr ""
-"'[_1]'에서 허가되지 않았습니다. 변경사항은 다른 디렉토리에 저장되어야 합니다."
 
 msgid "blank problem"
-msgstr "빈 문제"
+msgstr ""
 
 msgid "Save Edit"
-msgstr "편집 저장"
+msgstr ""
 
 msgid "Enrolled"
-msgstr "등록됨"
+msgstr ""
 
 msgid ""
 "Write permissions have not been enabled for '[_1]'.  Changes must be saved "
 "to another file for viewing."
 msgstr ""
-"'[_1]'에서 허가되지 않았습니다. 변경사항은 다른 디렉토리에 저장되어야 합니다."
 
 msgid ""
 "Note: this problem viewer is for viewing purposes only. As of right now, "
 "testing functionality is not possible."
 msgstr ""
-"공지사항: 이 프로그램 뷰어는 내용을 읽을 수만 있습니다. 테스트 기능은 지원하"
-"지 않습니다."
 
 msgid "Save Export"
-msgstr "내보낸 파일 저장하기"
+msgstr ""
 
 msgid "webwork"
 msgstr "webwork"
@@ -1749,25 +1729,23 @@ msgid "Problem Viewer"
 msgstr "문제 뷰어"
 
 msgid "submit button clicked"
-msgstr "제출 버튼 클릭"
+msgstr ""
 
 msgid "Student Progress for [_1]"
-msgstr "[_1]의 학생 진행상황"
+msgstr ""
 
 msgid ""
 "A new file has been created at '[_1]' with the contents below. No changes "
 "have been made to set [_2]."
 msgstr ""
-"새로운 파일이 아래의 내용과 함께 '[_1]'에서 생성되었습니다. 문제집 [_2]에는 "
-"변경사항이 없습니다."
 
 msgid ""
 "Your score was not recorded because this problem has not been assigned to "
 "you."
-msgstr "점수가 기록되지 않았습니다. 이 문제가 할당되지 않았음."
+msgstr ""
 
 msgid "Sort"
-msgstr "분류"
+msgstr ""
 
 msgid "Add problem"
 msgstr "문제 추가"
@@ -1776,7 +1754,7 @@ msgid "Author Info"
 msgstr "작성자 정보"
 
 msgid "Replace [_1]"
-msgstr "[_1]을 바꾸기"
+msgstr ""
 
 msgid "Help"
 msgstr "도움말"
@@ -1790,92 +1768,86 @@ msgstr "문제 소스 코드"
 msgid ""
 "Test snippets of PG code in interactive lab.  Good way to learn PG language."
 msgstr ""
-"대화형 마법사의 프로그램 코드 테스트 조각. 프로그램을 언어를 배우는 좋은 방"
-"법."
 
 msgid "Page generated at [_1] at [_2]"
-msgstr "[_1]에서 페이지 생성됨 [_2]"
+msgstr ""
 
 msgid "Import"
-msgstr "가져오기"
+msgstr ""
 
 msgid "View Using Seed Number"
-msgstr "Seed Number을 사용해서 보기"
+msgstr ""
 
 msgid "Grades"
-msgstr "성적"
+msgstr ""
 
 msgid "Published"
-msgstr "출판됨"
+msgstr ""
 
 msgid "Your score was not recorded because this homework set is closed."
-msgstr "점수가 입력되지 않았습니다; 문제집이 닫힘"
+msgstr ""
 
 msgid ""
 "The text box now contains the source of the original problem. You can "
 "recover lost edits by using the Back button on your browser."
 msgstr ""
-"테스트 박스가 초기 문제의 소스를 가지고 있습니다. 브라우저에서 뒤로가기 버튼"
-"을 눌러 잃어버린 편집본을 복구할 수 있습니다."
 
 msgid "The file '[_1]' is a directory!"
-msgstr "파일 '[_1]이 디렉토리입니다!"
+msgstr ""
 
 msgid "Save As"
-msgstr "저장하기"
+msgstr ""
 
 msgid ""
 "Documentation from source code for PG modules and macro files. Often the "
 "most up-to-date information."
-msgstr "프로그램 모듈, 매크로 파일의 소스 코드 문서. 가장 최근의 정보."
+msgstr ""
 
 msgid "Problem Techniques"
-msgstr "기술적 문제"
+msgstr ""
 
 msgid "Course Configuration"
-msgstr "환경설정"
+msgstr ""
 
 msgid "Feedback"
 msgstr "피드백"
 
 msgid "Export"
-msgstr "저장 후 내보내기"
+msgstr ""
 
 msgid ""
 "PG mark down syntax used to format WeBWorK questions. This interactive lab "
 "can help you to learn the techniques."
 msgstr ""
-"WeBWorK 문제를 포맷하기 위한 프로그램 언어구조. 대화형 마법사가 방법을 알려줍"
-"니다."
 
 msgid "Record Scores for Single Sets"
-msgstr "개별 문제집에 대해 점수 기록"
+msgstr ""
 
 msgid "Append to end of set [_1]"
-msgstr "문제집 [_1] 끝에 덧붙임"
+msgstr ""
 
 msgid "Unrecognized saveMode: |[_1]|. Unknown error."
-msgstr "알려지지 않은 저장모드: |[_1]|. 알려지지 않은 오류."
+msgstr ""
 
 msgid ""
 "Your score was not recorded because there was a failure in storing the "
 "problem record to the database."
-msgstr "점수가 기록되지 않았습니다; 데이터베이스에 문제를 저장하는데 실패함."
+msgstr ""
 
 msgid "The hardcopy header for set [_1] has been renamed to '[_2]'."
-msgstr "문제집 [_1]의 hardcopy 헤더가 '[_2]'로 이름이 바뀌었습니다. "
+msgstr ""
 
 msgid "Save as"
 msgstr "저장하기"
 
 msgid "Select action below"
-msgstr "아래의 동작 선택"
+msgstr ""
 
 msgid "The file '[_1]' cannot be found."
-msgstr "파일 '[_1]'을 찾을 수 없음."
+msgstr ""
 
 msgid "Unable to write to '[_1]': [_2]"
-msgstr "'[_1]'로 쓸 수 없음: [_2]"
+msgstr ""
 
 msgid "Save"
 msgstr "저장"
@@ -1885,80 +1857,72 @@ msgid ""
 "change the file path for this problem manually from the 'Hmwk Sets Editor' "
 "page"
 msgstr ""
-"파일 '[_1]'이 존재. 파일이 저장안됨. 변경사항 없음. '문제집 편집자' 페이지에"
-"서 수동으로 파일경로를 바꿀 수 있음. "
 
 msgid "The set header for set [_1] has been renamed to '[_2]'."
-msgstr "문제집 [_1]의 헤더가 '[_2]'로 이름이 바뀌었습니다."
+msgstr ""
 
 msgid ""
 "Error: This path is already in the temporary edit directory -- no new "
 "temporary file is created. path = [_1]"
 msgstr ""
-"오류: 이 경로는 이미 임시 편집 디렉토리에 있습니다 -- 새로운 임시파일 생성 안"
-"됨. 경로 = [_1]"
 
 msgid ""
 "Please use radio buttons to choose the method for saving this file. Can't "
 "recognize saveMode: |[_1]|."
 msgstr ""
-"이 파일의 저장방법을 선택하기 위해 라디오 버튼을 이용해주세요. 저장모드: |"
-"[_1]|을 인식하지 못함."
 
 msgid "Saved to file '[_1]'"
-msgstr "파일 '[_1]'로 저장하기"
+msgstr ""
 
 msgid "Please specify a file to save to."
-msgstr "저장할 파일을 명시해주세요."
+msgstr ""
 
 msgid "The selected problem ([_1]) is not a valid problem for set [_2]."
-msgstr "선택된 문제 ([_1])은 문제집 [_2]의 유효한 문제가 아닙니다."
+msgstr ""
 
 msgid "Editing [_1] in file '[_2]'"
-msgstr "파일 '[_2]'에 [_1]을 편집"
+msgstr ""
 
 msgid "Deleting temp file at [_1]"
-msgstr "[_1]에서 임시 파일 삭제"
+msgstr ""
 
 msgid "hidden from"
-msgstr "숨겨짐"
+msgstr ""
 
 msgid "View student progress by set"
-msgstr "문제집별 학생 진행상황 보기"
+msgstr ""
 
 msgid "View"
-msgstr "보기"
+msgstr ""
 
 msgid "Resources"
-msgstr "자료"
+msgstr ""
 
 msgid "Scoring Download"
-msgstr "점수 다운로드"
+msgstr ""
 
 msgid "Duplicate"
 msgstr "복사"
 
 msgid "This path |[_1]| is not the path to a temporary edit file."
-msgstr "이 경로 |[_1]|는 임시 편집 파일의 경로가 아닙니다."
+msgstr ""
 
 msgid "visible to"
-msgstr "~에게 보임"
+msgstr ""
 
 msgid ""
 "Unable to change the source file path for set [_1], problem [_2]. Unknown "
 "error."
 msgstr ""
-"문제집 [_1], 문제 [_2]의 소스파일 경로를 바꾸지 못했습니다. 알려지지 않은 오"
-"류."
 
 msgid "Course Administration"
-msgstr "수업 관리"
+msgstr ""
 
 msgid "Added [_1] to [_2] as problem [_3]"
-msgstr "[_2]에 문제 [_3]으로 덧붙여진 [_1]"
+msgstr ""
 
 msgid "Options Information"
-msgstr "선택 정보"
+msgstr ""
 
 msgid "Proctor"
 msgstr "프록터"
@@ -1967,85 +1931,83 @@ msgid "Student Progress"
 msgstr "학생 진행상황"
 
 msgid "Revert"
-msgstr "되돌아가기"
+msgstr ""
 
 msgid "Statistics"
-msgstr "점수 통계"
+msgstr "통계학"
 
 msgid "Save as new independent problem"
-msgstr "독립된 새로운 문제로 저장하기"
+msgstr ""
 
 msgid "Scoring Tools"
-msgstr "점수 도구"
+msgstr ""
 
 msgid ""
 "The source file for 'set [_1] / problem [_2]' has been changed from [_3] to "
 "'[_4]'."
 msgstr ""
-"'문제집 [_1] / 문제 [_2]'의 소스 파일이 [_3]에서 '[_4]'로 바뀌었습니다."
 
 msgid "Cancel Export"
-msgstr "내보내기 취소"
+msgstr ""
 
 msgid "View student progress by student"
-msgstr "학생별 진행상황 보기"
+msgstr ""
 
 msgid "Revert to [_1]"
-msgstr "[_1]로 돌아가기"
+msgstr ""
 
 msgid "Classlist Editor"
-msgstr "Classlist 편집자"
+msgstr ""
 
 msgid "Add"
 msgstr "추가"
 
 msgid "the original path to the file is [_1]"
-msgstr "파일의 초기 경로는[_1]입니다."
+msgstr ""
 
 msgid "The path to the original file should be absolute"
-msgstr "파일의 초기경로는 완전합니다"
+msgstr ""
 
 msgid ""
 "To edit this text you must use the 'Save AS' action below to save it to "
 "another file."
 msgstr ""
-"이 문자열을 수정하려면 아래의 '저장하기'를 이용해 다른 파일로 저장하세요."
 
 msgid "Error: The original file [_1] cannot be read."
-msgstr "오류: 원본파일 [_1]을 읽을 수 없습니다."
+msgstr ""
 
 msgid "Unable to change the set header for set [_1]. Unknown error."
-msgstr "문제집 [_1]의 문제집 헤더를 바꿀 수 없습니다. 알려지지 않은 오류."
+msgstr ""
 
 msgid "options information"
-msgstr "선택 정보"
+msgstr ""
 
 msgid "The selected problem([_1]) is not a valid problem for set [_2]."
-msgstr "선택된 문제([_1])은 문제집 [_2]의 유효한 문제가 아닙니다."
+msgstr ""
 
 msgid "Unknown file type"
 msgstr "알려지지 않은 파일"
 
 msgid "course information"
-msgstr "수업 정보"
+msgstr "강좌 정보"
 
 msgid "Change User Options"
 msgstr "사용자 설정 바꾸기"
 
 msgid "Drop"
-msgstr "중단"
+msgstr ""
 
 msgid "Solutions"
 msgstr "풀이"
 
 msgid "Show:"
-msgstr "보이기:"
+msgstr ""
 
 msgid "WeBWorK Assignment [_1] is due : [_2]."
 msgstr "WeBWorK 숙제 [_1]의 기한은 [_2]까지 입니다."
 
 msgid "Hardcopy Generator"
-msgstr "Hardcopy Generator"
+msgstr ""
 
 msgid "This set is visible to students."
 msgstr "이 문제집은 학생들이 볼 수 있습니다."
@@ -2054,17 +2016,15 @@ msgid "View equations as"
 msgstr "방정식은 다음과 같습니다;"
 
 msgid "From:"
-msgstr "From:"
+msgstr ""
 
 msgid "Generate Hardcopy"
-msgstr "Hardcopy 생성"
+msgstr ""
 
 msgid ""
 "You may choose to show any of the following data. Correct answers and "
 "solutions are only available after the answer date of the homework set."
 msgstr ""
-"다음 데이터를 보려면 선택하시오. 정답과 풀이는 문제집의 answer date 후에 볼 "
-"수 있음."
 
 msgid "E-mail Instructor"
 msgstr "강사에게 이메일 전송"
@@ -2086,8 +2046,6 @@ msgid ""
 "or an error in a problem you are attempting. Along with your message, "
 "additional information about the state of the system will be included."
 msgstr ""
-"WeBWorK 시스템이나 풀고있는 문제의 오류를 교수에게 보고할 때 이 양식을 이용하"
-"시오. 메시지 뿐 아니라, 시스템 상황에 대한 부가 정보도 포함."
 
 msgid "Student answers"
 msgstr "학생 답안"
@@ -2096,4 +2054,4 @@ msgid "Hints"
 msgstr "힌트"
 
 msgid "Hardcopy Format:"
-msgstr "Hardcopy 포맷:"
+msgstr ""

@@ -1,0 +1,655 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyPreamble.tex,v 1.3 2005/09/17 20:12:01 gage Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\batchmode
+\documentclass[10pt,dvips]{amsart}
+\usepackage{amsmath,amsfonts}%,amssymb}
+\usepackage[pdftex]{graphicx}
+%\usepackage{epstopdf}  % allows use of eps files with pdftex
+\usepackage{epsf}
+%\usepackage{epsfig}
+\usepackage{pslatex}
+\pagestyle{plain}
+\textheight 9in
+\oddsidemargin = -0.42in
+\evensidemargin = -0.42in
+\textwidth= 7.28in
+\columnsep = .25in
+\columnseprule = .4pt
+\def\endline{\bigskip\hrule width \hsize height 0.8pt }
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\less}{<}
+\newcommand{\grt}{>}
+
+% BEGIN capa tex macros
+
+\newcommand{\capa}{{\sl C\kern-.10em\raise-.00ex\hbox{\rm A}\kern-.22em%
+{\sl P}\kern-.14em\kern-.01em{\rm A}}}
+  
+\newenvironment{choicelist}
+{\begin{list}{}
+	{\setlength{\rightmargin}{0in}\setlength{\leftmargin}{0.13in}
+	\setlength{\topsep}{0.05in}\setlength{\itemsep}{0.022in}
+	\setlength{\parsep}{0in}\setlength{\belowdisplayskip}{0.04in}
+	\setlength{\abovedisplayskip}{0.05in}
+	\setlength{\abovedisplayshortskip}{-0.04in}
+	\setlength{\belowdisplayshortskip}{0.04in}}
+	}
+{\end{list}}
+
+% END capa tex macros 
+
+\begin{document}
+\voffset=-0.8in
+\newpage
+\setcounter{page}{1}
+%\begin{multicols}{2}
+%\columnwidth=\linewidth
+%% decoded old answers, saved. (keys = 
+% \end{multicols}
+
+\noindent {\large \bf Teri Christiansen}
+\hfill
+{\large \bf {MU\_Math\_1100\_College\_Algebra\_SP13}}
+% Uncomment the line below if this course has sections. Note that this is a comment in TeX mode since this is only processed by LaTeX
+%   {\large \bf { Section:  } }
+\par
+\noindent{\large \bf {Assignment WW\_Quiz1  due 01/25/2013 at 11:15am CST}}
+\par\noindent \bigskip
+% Uncomment and edit the line below if this course has a web page. Note that this is a comment in TeX mode.
+%See the course web page for information http://yoururl/yourcourse
+
+
+
+% \begin{multicols}{2}
+%\columnwidth=\linewidth
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 1.}
+{\bf 12. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Polynomials\_Multiplication\-/Mult3.pg}}\newline Multiply and Simplify: \par 
+\((8 x  + 5)^2  - (7 x + 9)(7 x - 9)\) \(=\) \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 2.}
+{\bf 6. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Exponent\_Laws\-/Product1a.pg}}\newline Write the following using positive exponents only, and simplify.
+\par 
+\begin{center} 
+\[\left(\dfrac{5 x}{y}\right)^{2} \left(\frac{2 x^{2}}{3}\right)^{-2} = \mbox{\parbox[t]{5ex}{\hrulefill}}\mbox{\parbox[t]{5ex}{\hrulefill}}\]
+\end{center} 
+
+  \leavevmode\\\relax 
+  {\bf Help:} You may need to type {\bf 1} in the denominator if your answer is not a fraction.
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 3.}
+{\bf 1. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Real\_Numbers\-/Absolute\_Value\-/Find\_Distance\_Between\_Rational\_Numbers.pg}}\newline Find the distance between the pair of real numbers: \(-{\textstyle\frac{1}{2}}\), \({\textstyle\frac{3}{4}}\). 
+\par 
+Answer: \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 4.}
+{\bf 15. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Real\_Numbers\-/Order\_of\_Operations\-/Harder\_Frac\_Ans.pg}}\newline Evaluate: \(\displaystyle\frac{2(2 - (-6))^2 -4 \cdot 4 + 6 \cdot 2}{2(3^2 + 1)^2}\)
+\par 
+Answer: \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 5.}
+{\bf 14. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/NPL\_Files\-/Exponential\_Laws\-/sw1\_3\_27.pg}}\newline Write the following fraction using positive exponents only:
+\par 
+\begin{center}
+\[\frac{(x^{4} y^{3})^{3}(x y^{3})^{-3}}{x^{4} y^{5}} = \mbox{\parbox[t]{5ex}{\hrulefill}}\mbox{\parbox[t]{5ex}{\hrulefill}}\]
+\end{center}
+
+\par 
+  {\bf Note: }  If your answer is not a fraction, write "1" in the denominator.
+\leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 6.}
+{\bf 4. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Real\_Numbers\-/Number\_Systems\-/Determine\_Number\_Type\_TF\_01.pg}}\newline Determine the validity of each statement by selecting True or False.
+\leavevmode\\\relax 
+
+\par\begin{enumerate}
+\item[\fbox{?}1.] The number \(\sqrt{19}\) is rational
+\item[\fbox{?}2.] The number \(\sqrt{(-18)^2}\) is irrational
+\item[\fbox{?}3.] The number \(0\) is an integer
+\item[\fbox{?}4.] The number \(-\frac{10}{28}\) is rational
+\item[\fbox{?}5.] The number \(\frac{\pi}{2}\) is rational
+\end{enumerate}
+
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 7.}
+{\bf 7. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Exponent\_Laws\-/VariableExponents9.pg}}\newline Rewrite the following using a single exponent, and simplify. If
+\par  \[\frac{y^{10 b + 7}}{y^{3 b - 10}}= y^{k}\] \par 
+then \(k =\) \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 8.}
+{\bf 8. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Exponential\_Notation\-/GroupedExponents3.pg}}\newline Simplify
+\par  \[\left(-3 w^{5} \right)^{3} \left(5 w^{3} \right)^{3}\] \par 
+and write your answer using positive exponents only. \par 
+Answer: \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 9.}
+{\bf 13. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Real\_Numbers\-/Absolute\_Value\-/Simplify\_Absolute\_Value.pg}}\newline Simplify: \(|-6| - |-23| + |40|\) 
+\par 
+Answer: \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 10.}
+{\bf 2. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Real\_Numbers\-/Interval\_Notation\-/Convert\_To\_Interval\_Notation\_Union\_Intersection.pg}}\newline Write in interval notation: 
+\par 
+(a) \(\{ x \mbox{ }|\mbox{ } x \leq -82 \mbox{ or } x \geq -38 \}\): \mbox{\parbox[t]{10ex}{\hrulefill}}
+\par 
+(b) \(\{ x \mbox{ }|\mbox{ } -82 < x \leq -38 \}\): \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+  \par 
+  {\bf Help:} {\bf \underline{Click here for help entering intervals as answers.}}
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 11.}
+{\bf 11. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Polynomials\_Degree\-/Degree2.pg}}\newline Consider the following polynomial:
+\par 
+\[-4 x^{16} + 10 x^{20} + 12 x^{10} + 30 x^{5} + 24\]
+\par 
+The degree of the term \(-4 x^{16}\) is: \mbox{\parbox[t]{3ex}{\hrulefill}}
+\par 
+The degree of the term \(10 x^{20}\) is: \mbox{\parbox[t]{3ex}{\hrulefill}}
+\par 
+The degree of the term \(12 x^{10}\) is: \mbox{\parbox[t]{3ex}{\hrulefill}}
+\par 
+The degree of the term \(30 x^{5}\) is: \mbox{\parbox[t]{3ex}{\hrulefill}}
+\par 
+The degree of the term \(24\) is: \mbox{\parbox[t]{3ex}{\hrulefill}}
+\par 
+The degree of the entire polynomial is: \mbox{\parbox[t]{3ex}{\hrulefill}}
+
+    \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 12.}
+{\bf 3. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Real\_Numbers\-/Interval\_Notation\-/Graph\_One\_Interval\_Left\_Inf.pg}}\newline Write interval notation for the given graph: 
+\par 
+\begin{center} 
+\includegraphics[width=0.5\linewidth]{/opt/webwork/courses/MU_Math_1100_College_Algebra_SP13/html/tmp/gif/christiansente-4520-setWW_QQuiz1prob3image1.png}
+
+\end{center} 
+\par 
+Answer: \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+  \par 
+  {\bf Help:} {\bf \underline{Click here for help entering intervals as answers.}}
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 13.}
+{\bf 10. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Polynomials\_Addition\_Subtraction\-/MixedVariables2.pg}}\newline Perform the indicated operation, and combine like terms. Simplify your answer as much as possible.
+\par 
+\((6 x + 2 y + 2 z + 10) + (8 x + 5 y  - 3 z  - 4) - (-9 x  - 3 y  - 4 z  - 6)\) \(=\)  \mbox{\parbox[t]{10ex}{\hrulefill}}
+
+    \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 14.}
+{\bf 9. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/NPL\_Files\-/Polynomials\_Multiplication\-/52IntAlg\_26\_MultPoly.pg}}\newline Multiply and simplify:  \par  \(( a - 5 b ) ( a^2+ 5 a b - 2 b^2 ) =\) \mbox{\parbox[t]{20ex}{\hrulefill}} 
+
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyProblemDivider.tex,v 1.3 2004/06/24 21:10:50 dpvc Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+\goodbreak
+\hrule
+\nobreak
+\smallskip
+%% decoded old answers, saved. (keys = 
+{\bf Problem 15.}
+{\bf 5. {\footnotesize (1 pt) MizzouLibrary\-/College\_Algebra\-/Exponent\_Laws\-/FractionToExponent1a.pg}}\newline Write the following using positive exponents only, and simplify.
+\par 
+\begin{center} 
+\[\left(\frac{-10 x^{-2}y^{6}z^{-3}}{40 x^{2} y^{-4} z^{-12}} \right)^{-2} = \mbox{\parbox[t]{5ex}{\hrulefill}}\mbox{\parbox[t]{5ex}{\hrulefill}}\]
+\end{center} 
+
+  \leavevmode\\\relax 
+  {\bf Help:} You may need to type {\bf 1} in the denominator if your answer is not a fraction.
+  \leavevmode\\\relax 
+
+\par{\small{\it Answer(s) submitted:}
+\vspace{-\parskip}\begin{itemize}
+\item\begin{verbatim}\end{verbatim}
+\item\begin{verbatim}\end{verbatim}
+\end{itemize}} (incorrect)\par
+%% decoded old answers, saved. (keys = 
+% \end{multicols}
+
+
+\noindent {\tiny Generated by \copyright WeBWorK, http://webwork.maa.org, Mathematical Association of America}
+
+% \begin{multicols}{2}
+%\columnwidth=\linewidth
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WeBWorK Online Homework Delivery System
+% Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+% $CVSHeader: webwork2/conf/snippets/hardcopyPostamble.tex,v 1.2 2003/12/09 01:12:29 sh002i Exp $
+% 
+% This program is free software; you can redistribute it and/or modify it under
+% the terms of either: (a) the GNU General Public License as published by the
+% Free Software Foundation; either version 2, or (at your option) any later
+% version, or (b) the "Artistic License" which comes with this package.
+% 
+% This program is distributed in the hope that it will be useful, but WITHOUT
+% ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+% FOR A PARTICULAR PURPOSE.  See either the GNU General Public License or the
+% Artistic License for more details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\end{multicols}
+\vfill
+\end{document}

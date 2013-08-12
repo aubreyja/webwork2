@@ -41,7 +41,6 @@ use WeBWorK::Utils::Tasks qw(fake_set fake_set_version fake_problem);
 use WeBWorK::Debug;
 use WeBWorK::ContentGenerator::Instructor qw(assignSetVersionToUser);
 use PGrandom;
-use HTML::Scrubber;
 
 # template method
 sub templateName {
@@ -354,9 +353,9 @@ sub attemptResults {
 	    $resultsRows{$_} = "";
 	}
 
-	my $answerScore = 0;
 	my $numCorrect = 0;
 	my $numAns = 0;
+        my $answerScore = 0;
 	foreach my $name (@answerNames) {
 		my $answerResult  = $pg->{answers}->{$name};
 		my $studentAnswer = $answerResult->{student_ans}; # original_student_ans
@@ -367,7 +366,7 @@ sub attemptResults {
 		$answerScore   = $answerResult->{score};
 		my $answerMessage = $showMessages ? $answerResult->{ans_message} : "";
 		#FIXME  --Can we be sure that $answerScore is an integer-- could the problem give partial credit?
-		$numCorrect += $answerScore > 0;
+		$numCorrect += $answerScore;
 		my $resultString = $answerScore == 1 ? "correct" : "incorrect";
 		
 		# get rid of the goofy prefix on the answer names (supposedly, the format
@@ -409,12 +408,13 @@ sub attemptResults {
 #		. scalar @answerNames . " $numIncorrectNoun correct, for a score of $scorePercent.";
 
 	my $summary = ""; 
-	if (scalar @answerNames == 1) { #Here there is just one answer blank
-			if ($answerScore == 1) { #The student might be totally right
+	if (scalar @answerNames == 1) {
+			#if ($numCorrect == scalar @answerNames) {
+			if($answerScore == 1) {
 				$summary .= CGI::div({class=>"gwCorrect"},"This answer is correct.");
-			 } elsif ($answerScore && $answerScore < 1) { #The student might be partially right
+			 } elsif($answerScore && $answerScore < 1) {
 				$summary .= CGI::div({class=>"gwIncorrect"},"Part of this answer is NOT correct.");
-			 } else { #The student might be completely wrong.
+			} else {
 			 	 $summary .= CGI::div({class=>"gwIncorrect"},"This answer is NOT correct.");
 			 }
 	} else {
@@ -1010,27 +1010,6 @@ sub pre_header_initialize {
 
 	my $formFields = { WeBWorK::Form->new_from_paramable($r)->Vars };
 
-	##### scrub answer fields for xss badness #####
-	my $scrubber = HTML::Scrubber->new(
-	    default=> 1,
-	    script => 0,
-	    process => 0,
-	    comment => 0
-	    );
-	foreach my $key (keys %$formFields) {
-	    if ($key =~ /AnSwEr/) {
-		$formFields->{$key} = $scrubber->scrub(		
-			(defined $formFields->{$key})? $formFields->{$key}:'' # using // would be more elegant but breaks perl 5.8.x
-		);
-		### HTML::scrubber is a little too enthusiastic about
-		### removing > and < so we have to add them back in otherwise
-		### they confuse pg
-		$formFields->{$key} =~ s/&lt;/</g;
-		$formFields->{$key} =~ s/&gt;/>/g;
-	    }
-	}
-	
-	
 	$self->{displayMode}    = $displayMode;
 	$self->{redisplay}      = $redisplay;
 	$self->{submitAnswers}  = $submitAnswers;
@@ -1224,7 +1203,6 @@ sub pre_header_initialize {
 			my %oldAnswers = decodeAnswers( $ProblemN->last_answer);
 			$formFields->{$_} = $oldAnswers{$_} foreach ( keys %oldAnswers );
 		}
-		
 		push( @problems, $ProblemN );
 
 		# if we don't have to translate this problem, just save the 
@@ -1247,25 +1225,6 @@ sub pre_header_initialize {
 	$self->{numPages} = $numPages;
 	$self->{pageNumber} = $pageNumber;
 	$self->{ra_probOrder} = \@probOrder;
-}
-
-sub head {
-        my ($self) = @_;
-        my $ce = $self->r->ce;
-        my $webwork_htdocs_url = $ce->{webwork_htdocs_url};
-
-        # Javascript and style for knowls
-        print qq{
-           <script type="text/javascript" src="$webwork_htdocs_url/js/jquery-1.7.1.min.js"></script>
-           <link href="$webwork_htdocs_url/css/knowlstyle.css" rel="stylesheet" type="text/css" />
-           <script type="text/javascript" src="$webwork_htdocs_url/js/Base64.js"></script>
-           <script type="text/javascript" src="$webwork_htdocs_url/js/knowl.js"></script>
-           
-
-           
-        };
-
-        return $self->{pg}->{head_text} if defined($self->{pg}->{head_text});
 }
 
 sub path {
@@ -1896,8 +1855,7 @@ sub body {
 		#    attempt multi-page test, show the score on the previous
 		#    submission
 		if ( $set->attempts_per_version > 1 ) {
-			print CGI::em("You have $numLeft attempt(s) remaining ",
-				      "on this test.");
+			print CGI::em($r->maketext("You have [_1] attempt(s) remaining on this test.",$numLeft));
 			if ( $numLeft < $set->attempts_per_version &&
 			     $numPages > 1 &&
 			     $can{showScore} ) {
@@ -2126,8 +2084,7 @@ sub body {
 				print CGI::a({-name=>"#$i1"},"");
 				print CGI::strong("Problem $problemNumber."), 
 					"$points\n", $recordMessage;
-				print CGI::div({class=>
-"problem-content"}, $pg->{body_text}),
+				print CGI::p($pg->{body_text}),
 				CGI::p($pg->{result}->{msg} ? 
 				       CGI::b("Note: ") : "", 
 				       CGI::i($pg->{result}->{msg}));
@@ -2200,13 +2157,13 @@ sub body {
 		}
 
 		print CGI::p( CGI::submit( -name=>"previewAnswers", 
-					   -label=>"Preview Test" ),
+					   -label=>$r->maketext("Preview Test") ),
 			      ($can{recordAnswersNextTime} ? 
 			       CGI::submit( -name=>"submitAnswers",
-					    -label=>"Grade Test" ) : " "),
+					    -label=>$r->maketext("Grade Test") ) : " "),
 			      ($can{checkAnswersNextTime} && ! $can{recordAnswersNextTime} ?
 			       CGI::submit( -name=>"checkAnswers",
-					    -label=>"Check Test" ) : " "),
+					    -label=>$r->maketext("Check Test") ) : " "),
 			      ($numProbPerPage && $numPages > 1 && 
 			       $can{recordAnswersNextTime} ? CGI::br() . 
 			       CGI::em("Note: grading the test grades " . 

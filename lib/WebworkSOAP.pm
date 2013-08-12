@@ -8,6 +8,7 @@ use WeBWorK::DB;
 use WeBWorK::DB::Utils qw(initializeUserProblem);
 use WeBWorK::CourseEnvironment;
 use WeBWorK::ContentGenerator::Instructor;
+use WeBWorK::Utils qw/writeCourseLog runtime_use/;
 
 use WebworkSOAP::Classes::GlobalSet;
 use WebworkSOAP::Classes::UserSet;
@@ -34,7 +35,7 @@ use constant {
 our %SeedCE;
 %WebworkSOAP::SeedCE = %WeBWorK::SeedCE;
 
-$WebworkSOAP::SeedCE{soap_authen_key} = "123456789123456789";
+$WebworkSOAP::SeedCE{soap_authen_key} = "4848393875739283847";
 #$WebworkSOAP::SeedCE{webwork_dir} = $ENV{WEBWORK_ROOT}|| warn "\$ENV{WEBWORK_ROOT} is undefined -- check your httpd configuration. Error caught ";
 
 
@@ -133,6 +134,8 @@ sub login_user {
     eval { $soapEnv->{db}->deleteKey($userID) };
     eval { $soapEnv->{db}->addKey($Key) };
     $@ and soap_fault(SOAPERROR_USER_NOT_FOUND,"User not found.");
+    my $log_msg = "LOGIN OK: user_id=$userID login_type=SOAP";
+    writeCourseLog($soapEnv->{ce},"login_log",$log_msg);
     return SOAP::Data->type( 'string', $newKey );
 }
 
